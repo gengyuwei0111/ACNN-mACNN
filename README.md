@@ -3,10 +3,10 @@
 Code repository for the paper:  
 **A Deep Learning Method for the Dynamics of Classic and Conservative Allen-Cahn Equations Based on Fully-Discrete Operators**  
 [Yuwei Geng](https://sc.edu/study/colleges_schools/artsandsciences/mathematics/our_people/directory/geng-yuwei.php), [Yuankai Teng](https://slooowtyk.github.io), [Zhu Wang](https://people.math.sc.edu/wangzhu) and [Lili Ju](https://people.math.sc.edu/ju)
-
 <br>
 Journal of Computational Physics, in revision 
 <br>
+Code to be released once the paper gets accepted.
 <!--
 [[paper](https://epubs.siam.org/doi/abs/10.1137/21M1459198)]
 
