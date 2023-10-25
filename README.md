@@ -6,55 +6,29 @@ Code repository for the paper:
 <br>
 Journal of Computational Physics, to appear. 
 <br>
-Code to be released.
+
 <!--
 [[paper](https://epubs.siam.org/doi/abs/10.1137/21M1459198)]
-
-
+-->
 ## Training Usage
-To train the PRNN for a problem on given domain and draw a graph for regression
+
 ```shell
-python ./train_model.py
- --case 2 
- --dim 2 
- --hidden_layers 2 
- --hidden_neurons 20 
- --lam_adf 1 
- --lam_bd 1 
- --optimizer 'Adam' 
- --Test_Mode 'LocalFitting' 
- --epochs_Adam 5000 
- --epochs_LBFGS 200 
- --TrainNum 2000 
- --coeff_para 50 
- --sigma 0.01 
- --domain 0 1
+python ./train_model.py --height 128 --width 128 --intial_snap 1 --mid_channels 16 --deltaT 0.1 --trainingBatch 1 --testBatch 1 --epsilon 0.01
 ```
 
 ## Testing  Usage
-To evaluate numerical error and relative sensitivity
+
 ```shell
-python ./evaluate_model.py
- --case 2 
- --dim 2 
- --hidden_layers 2 
- --hidden_neurons 20 
- --lam_adf 1 
- --lam_bd 1 
- --optimizer 'Adam' 
- --Test_Mode 'LocalFitting' 
- --epochs_Adam 5000 
- --epochs_LBFGS 200 
- --TrainNum 2000 
- --coeff_para 50 
- --sigma 0.01 
- --domain 0 1
+python ./tester.py --TestingEndingTime 10 --height 128 --width 128 --intial_snap 1 --mid_channels 16 --deltaT 0.1 --trainingBatch 1 --testBatch 1 --epsilon 0.01
 ```
+
 
 
 ## Citation
 If you  find the idea or code of this paper useful for your research, please consider citing us:
 
+To be updated
+<!--
 ```bibtex
 @article{teng2023level,
   title={Level Set Learning with Pseudoreversible Neural Networks for Nonlinear Dimension Reduction in Function Approximation},
