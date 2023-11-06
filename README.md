@@ -27,18 +27,16 @@ python ./tester.py --TestingEndingTime 10 --height 128 --width 128 --intial_snap
 ## Citation
 If you  find the idea or code of this paper useful for your research, please consider citing us:
 
-To be updated
-<!--
 ```bibtex
-@article{teng2023level,
-  title={Level Set Learning with Pseudoreversible Neural Networks for Nonlinear Dimension Reduction in Function Approximation},
-  author={Teng, Yuankai and Wang, Zhu and Ju, Lili and Gruber, Anthony and Zhang, Guannan},
-  journal={SIAM Journal on Scientific Computing},
-  volume={45},
-  number={3},
-  pages={A1148--A1171},
-  year={2023},
-  publisher={SIAM}
+@article{GENG2024112589,
+title = {A deep learning method for the dynamics of classic and conservative Allen-Cahn equations based on fully-discrete operators},
+journal = {Journal of Computational Physics},
+volume = {496},
+pages = {112589},
+year = {2024},
+issn = {0021-9991},
+doi = {https://doi.org/10.1016/j.jcp.2023.112589},
+url = {https://www.sciencedirect.com/science/article/pii/S0021999123006848}
 }
 ```
--->
+
