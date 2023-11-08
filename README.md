@@ -27,15 +27,13 @@ python ./tester.py --TestingEndingTime 10 --height 128 --width 128 --intial_snap
 If you  find the idea or code of this paper useful for your research, please consider citing us:
 
 ```bibtex
-@article{GENG2024112589,
-title = {A deep learning method for the dynamics of classic and conservative Allen-Cahn equations based on fully-discrete operators},
-journal = {Journal of Computational Physics},
-volume = {496},
-pages = {112589},
-year = {2024},
-issn = {0021-9991},
-doi = {https://doi.org/10.1016/j.jcp.2023.112589},
-url = {https://www.sciencedirect.com/science/article/pii/S0021999123006848}
+@article{geng2023deep,
+  title={A Deep Learning Method for the Dynamics of Classic and Conservative Allen-Cahn Equations Based on Fully-Discrete Operators},
+  author={Geng, Yuwei and Teng, Yuankai and Wang, Zhu and Ju, Lili},
+  journal={Journal of Computational Physics},
+  pages={112589},
+  year={2023},
+  publisher={Elsevier}
 }
 ```
 
