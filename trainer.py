@@ -10,8 +10,7 @@ from loss import loss_be
 from utils import save_checkpoints
 import matplotlib.cm as cm
 import matplotlib.pyplot as plt
-torch.set_default_dtype(torch.float32)
-# torch.set_default_tensor_type(torch.DoubleTensor)
+torch.set_default_tensor_type(torch.DoubleTensor)
 
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 class Trainer():
