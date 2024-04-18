@@ -67,7 +67,7 @@ class Trainer():
         self.optimizer_Adam = optim.Adam(self.CNN.parameters(), lr=0.001)
         self.lr_scheduler = StepLR(self.optimizer_Adam, step_size=1, gamma=0.6)
 
-        best_loss = 1e10
+        best_loss = 1e-10
         tt = time.time()
         self.CNN.train()
         print('Training Start...')
